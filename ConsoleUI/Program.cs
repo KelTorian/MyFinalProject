@@ -7,6 +7,7 @@ namespace ConsoleUI
 
 //SOLID
 //OPEN CLOSED PRINCIPLE
+// drlsm
 {
     class Program
 
@@ -15,7 +16,7 @@ namespace ConsoleUI
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
 
-            foreach (var product in productManager.GetByUnitPrice(60, 100))
+            foreach (var product in productManager.GetByUnitPrice(20, 100))
             {
                 Console.WriteLine(product.ProductName);
             }

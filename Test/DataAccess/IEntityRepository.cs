@@ -1,10 +1,10 @@
-﻿using Core.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
+using Test.Entities;
 
-namespace Core.DataAccess
+namespace Test.DataAccess
 {
     //Generic constraint
     //class: referans tip olabilir
