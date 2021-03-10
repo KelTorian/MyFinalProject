@@ -1,5 +1,4 @@
 ﻿using Entities.Concrete;
-using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,9 +6,7 @@ using Test.DataAccess;
 
 namespace DataAccess.Abstract
 {
-    public interface IProductDal : IEntityRepository<Product>
+    public interface IOrderDal:IEntityRepository<Order>
     {
-        List<ProductDetailDTO> GetProductDetails();
-
     }
 }
